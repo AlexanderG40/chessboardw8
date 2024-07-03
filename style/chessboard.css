@@ -1,0 +1,19 @@
+body{
+    background-color: aquamarine;
+}
+/* styles for the board */
+#divChessBoard{
+    /* set the width of the board */
+    width: 560px;
+    /* set the height of the board */
+    height: 560px;
+    /* set up a border around the board */
+    border: 2px solid black;
+}
+/* styles for the chess squares */
+.chessSquare{
+    float: left; /* align the squares next to each other */
+    width: 70px;/* set the width of each square */
+    height: 70px;/* set the height of each square */
+    background-color: rgb(235, 235, 96);
+}

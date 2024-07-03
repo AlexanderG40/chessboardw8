@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week 8 Chessboard</title>
+    <link rel="stylesheet" href="./style/chessboard.css">
+</head>
+<body>
+    <header>
+        <h1>Here is our awesome Chessboard</h1>
+    </header>
+    <main>
+        <!-- This is where we will add the chessboard through javascript code -->
+        <div id="divChessBoard"></div>
+    </main>
+    <!-- Added the link to our file for js -->
+    <script src="./js/chessboard.js"></script>
+
+    <script>
+        //Set up the nickname/shortcut where the chessboard should go
+        var chessboard = document.getElementById("divChessBoard");
+
+        // call the function to create the chessboard
+        createChessBoard(chessboard);
+    </script>
+</body>
+</html>
